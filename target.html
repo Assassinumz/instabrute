@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <title>Enter the username</title>
+
+</head>
+<body>
+    <div class="box">
+        <br>
+        <br>
+        <br>
+        <h2>Enter the username</h2>
+        <form>
+        <input type="text">
+        <br>
+        <button class="btn btn-1" type="reset" onclick="fun()">Submit</button>
+        </form>
+        <p id="success"></p>
+    </div>
+
+<script>
+    function fun() {
+        var success = document.getElementById("success");
+        success.innerHTML = "The creds will be messaged on success!";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
+    margin: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    margin: auto;
+    color: rgb(96, 60, 255);
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 500px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.459);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
